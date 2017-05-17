@@ -48,5 +48,11 @@ public class Avion {
 		this.puissance = puissance;
 	}
 	//les méthodes
-	
+	public String toString(){
+		return "l'avion "+this.id+" de marque "+this.marque+", vitesse "+this.vitesse+" km/h et de puissance "+this.puissance;
+	}
+	public String description(){
+		String str = "Avion "+this.getId()+" de marque "+this.getMarque()+" avec une vitesse de "+this.getVitesse()+" km/h et une puissance de"+this.getPuissance();
+		return str;
+	}
 }
