@@ -22,5 +22,31 @@ public class Avion {
 		this.puissance = puissance;
 	}
 	
-	//
+	//accesseurs et mutateurs
+	public int getId(){
+		return id;
+	}
+	public void setId(){
+		this.id = ++count;
+	}
+	public String getMarque(){
+		return marque;
+	}
+	public void setMarque(String marque){
+		this.marque  = marque;
+	}
+	public double getVitesse(){
+		return vitesse;
+	}
+	public void setVitesse(double vitesse){
+		this.vitesse = vitesse;	
+	}
+	public int getPuissance(){
+		return puissance;
+	}
+	public void setPuissance(int puissance){
+		this.puissance = puissance;
+	}
+	//les méthodes
+	
 }
